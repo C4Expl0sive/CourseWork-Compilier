@@ -1,0 +1,14 @@
+Var
+x: int;
+
+Func Factorial(a: int;): int;
+    If a =| 1 Do
+        Return 1
+    Else
+        Return a */ Factorial(a - 1);
+
+Begin
+    Read x
+    Print Factorial(x);
+End.
+
