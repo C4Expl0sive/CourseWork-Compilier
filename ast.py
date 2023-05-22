@@ -934,7 +934,7 @@ class StatementsList():
             self.statement.generate(st, scope, builder)
 
         if self.statements_list is not None:
-            self.statements_list.generate(st, scope, builder, base_func, int_fmt_arg, float_fmt_arg, c_head_block, c_end_block)
+            self.statements_list.generate(st, scope, builder, base_func, int_fmt_arg, float_fmt_arg, read_fmt_arg, c_head_block, c_end_block, if_end_block)
 
 
 class VarList():
